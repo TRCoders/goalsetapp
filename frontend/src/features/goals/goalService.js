@@ -25,7 +25,7 @@ const getGoals = async (token) => {
 
     const response = await axios.get(API_URL, config)
 
-    return response.goalData
+    return response.data
 }
 
 const goalService = {
